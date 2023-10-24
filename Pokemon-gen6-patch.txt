@@ -10,7 +10,7 @@ X/Y:
         0x41184C - mov r0,1
         0x4E21E4 - mov r0,0
 
-    URL: 0x4A0974
+    URL: 0x5A0974
 
 OR/AS:
     Sigpatch (todo: check if this is all needed)
@@ -24,6 +24,6 @@ OR/AS:
         0x434108 - mov r0,1
         0x5185cc - mov r0,0
 
-    URL: 0x4E3708
+    URL: 0x5E3708
 
 All addresses are load addresses, subtract 0x100000 to get code.bin file addresses
