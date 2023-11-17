@@ -1,6 +1,4 @@
-codeas.bin
-codeor.bin
-codexy.bin
+*.bin
 
-dist
+out
 build
