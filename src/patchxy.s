@@ -17,11 +17,6 @@ get_color_fix equ 0x3F8030
 movr01 equ 0x41184C
 movr00 equ 0x4E21E4
 
-url_addr equ 0x5A0974
-
-.org url_addr
-	.ascii "http://poke-hax-check.pretendo.cc/validator/v1/validate", 0, 0, 0, 0, "http://poke-hax-check.pretendo.cc/validator/v1/public_key", 0, 0, 0, 0
-
 .include "src/patchmain.s"
 
 .close
