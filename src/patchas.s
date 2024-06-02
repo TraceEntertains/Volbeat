@@ -17,8 +17,6 @@ get_color_fix equ 0x41AA20
 movr01 equ 0x434108
 movr00 equ 0x5185CC
 
-url_addr equ 0x5E3708
-
 .include "src/patchmain.s"
 
 .close
